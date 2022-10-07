@@ -11,7 +11,7 @@ public class Main {
         System.out.println(myNegativeNumber);
         byte myModuleOp = (55+9) % 9;
         System.out.println(myModuleOp);
-        Byte myOpNumber = 20 + -3*5 / 8;
+        byte myOpNumber = 20 + -3*5 / 8;
         System.out.println(myOpNumber);
         byte myLongOp = 5 + 15 / 3 * 2 -8 % 3;
         System.out.println(myLongOp);
