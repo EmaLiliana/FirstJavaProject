@@ -11,13 +11,13 @@ public class Main {
 
         printMyJava();
 
-        System.out.println("Media aritmetica a numerelor: 5, 10 si 15 este: " + media(5, 10, 15) / 3);
+        System.out.println("Media aritmetica a numerelor: 5, 10 si 15 este: " + media( 5,10,15,3));
 
         printMyRobot();
 
         System.out.println("Restul impartirii numerelelor 10 si 6 este: " + rest(10, 6));
 
-        System.out.println("40 grade Fahrenheit = " + fahrenheitToCelsius(5/9 * 40 - 32) + " grade Celsius");
+        System.out.println("40 grade Fahrenheit = " + fahrenheitToCelsius(5 / 9 * 40 - 32) + " grade Celsius");
 
         System.out.println("80 Inchs =  " + inchToMeter(80 * 0.0254) + "m");
 
@@ -100,10 +100,12 @@ public class Main {
 
     }
 
-    public static int media(int primulNumar, int alDoileaNumar, int alTreileaNumar) {
+    public static int media(int primulNumar, int alDoileaNumar, int alTreileaNumar, int alPatruleaNumar) {
 
-        int rezultat = primulNumar + alDoileaNumar + alTreileaNumar;
+
+        int rezultat = (primulNumar + alDoileaNumar + alTreileaNumar) / alPatruleaNumar;
         return rezultat;
+
     }
 
     public static void printMyRobot() {
@@ -123,17 +125,15 @@ public class Main {
 
         return rezultat;
     }
-    public static double fahrenheitToCelsius(double args){
+
+    public static double fahrenheitToCelsius(double args) {
         double fahrenheit = 40;
         double celsius = 5 / 9 * fahrenheit - 32;
         double rezultat = celsius;
         return rezultat;
     }
 
-    }
-
-
-
+}
 
 
 

@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="10fcbe69-ff4e-4b6d-959e-1563a80c960d" name="Changes" comment="Project">
-      <change afterPath="$PROJECT_DIR$/src/LogicalOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -49,7 +47,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main$Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main$Main2" />
       <module name="FirstJavaProject" />
@@ -122,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665423223159</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Project">
+      <created>1666085696016</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1666085696016</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
