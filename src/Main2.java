@@ -17,8 +17,9 @@ public class Main2 {
         //AND the number is equal to or higher than 4, print the number&text in this order.
 
         String textInput2 = "FastTrack";
-        int numberInput = 3;
+        int numberInput= 3;
 
         System.out.println(op.textAndNumberComparison(textInput2, numberInput));
     }
+
 }

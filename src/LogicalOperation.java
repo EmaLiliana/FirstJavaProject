@@ -17,17 +17,16 @@ public class LogicalOperation {
         }
     }
 
-    public String textAndNumberComparison(String textInput, int numberInput) {
-        if (textInput.equals("FastTrack") && numberInput <= 3) {
-            return textInput + numberInput;
-        } else if (!textInput.equals("FastTrack") && numberInput >= 4) {
-            return numberInput + textInput;
+    public String textAndNumberComparison(String textInput2, int numberInput) {
+        if (textInput2.equals("FastTrack") && numberInput <= 3) {
+            return textInput2 + numberInput;
+        } else if (!textInput2.equals("FastTrack") && numberInput >= 4) {
+            return numberInput + textInput2;
         } else {
             return "No condition was met";
         }
 
     }
-    //Homework:
 
 
     }
