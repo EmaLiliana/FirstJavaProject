@@ -1,4 +1,104 @@
 public class LogicalOp {
+    public int checkBiggerNumber(int firstNumber, int secondNumber) {
+        if (firstNumber > secondNumber) {
+            return firstNumber;
+        } else {
+            return secondNumber;
+        }
+    }
+
+    public String textComparison(String textInput) {
+        if (textInput.equals("FastTrack")) {
+            return "Learning text comparison.";
+        } else {
+            return "Got to try more.";
+        }
+    }
+
+    public String textAndNumber(String textInput2, int numberInput) {
+        if (textInput2.equals("FastTrackIt") && numberInput <= 3) {
+            return "FastTrackIt3";
+        } else if (!textInput2.equals("FastTrackIt") && numberInput >= 4) {
+            return numberInput + textInput2;
+        } else {
+            return "No condition was met.";
+        }
+    }
+
+
+    public String switchNumber() {
+        int number = 20;
+        switch (number) {
+            case 20:
+                ;
+                break;
+
+        }
+        return "The number is 20.";
+
+    }
+
+
+    public boolean trueOrFalse() {
+        int number = 28;
+
+        if (number % 2 == 0) {
+            return true;
+        } else {
+            return false;
+        }
+
+    }
+
+    public boolean isEligibleToVote() {
+        int ageNumber = 18;
+        if (ageNumber >= 18) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    public int biggestNumberAgain(int first, int second, int third) {
+        first = 6;
+        second = 4;
+        third = 2;
+        if (first > second && third < second) {
+            return first;
+        } else if (second > first && third < first) {
+            return second;
+        }
+        {
+            return third;
+        }
+
+
+    }
+
+    public String amountSnow(int snowNumber) {
+        snowNumber = 4;
+        if (snowNumber > 8 || snowNumber == 6) {
+            return "The amount of snow this winter was:" + snowNumber + " cm.";
+        } else {
+            return "The forecast snow is:" + snowNumber + " cm.";
+        }
+
+    }
+
+    public String greaterAndLower(int number) {
+        number = 4;
+        if (number > 3 && (!equals(4))) {
+            return "The number is greater than 3 and not equal to 4.";
+        } else if (number == 4) {
+            return "The number is equal to 4.";
+        } else if (number < 3) {
+            return "The number is lower than 3.";
+        } else {
+            return "Time for sleep.";
+        }
+
+    }
+
 
     // Homework "Java for Loop"
 
@@ -75,13 +175,13 @@ public class LogicalOp {
     // Metoda sa adune toate numerele pana la 100, pornind de la numarul primit ca si parametru,
     // iar la final sa returneze rezultatul.
     // Apelati metoda in clasa Main, metoda main() pentru a verifica daca functioneaza.
-    public void sumOfNumberFromTo(int sum){
-        sum = 0;
+    public int sumOfNumberFromTo(){
+        int sum = 0;
 
         for ( int i = 0; i<=100; i++ ){
             sum = sum +i;
         }
-        System.out.println(sum);
+        return sum;
 
     }
 

@@ -39,8 +39,8 @@ public class Main4 {
 
 
 
-        int sum = 0;
-        LogicalOp.sumOfNumberFromTo(sum);
+
+        System.out.println(LogicalOp.sumOfNumberFromTo());;
 
 
 
