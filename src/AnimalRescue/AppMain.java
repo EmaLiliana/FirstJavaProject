@@ -19,7 +19,12 @@ public class AppMain {
 
         Cat Kiki = new Cat();
         Kiki.setHairLoss("Medium");
-      System.out.println("Kiki - hair Loss level: " + Kiki.hairLoss);
+      System.out.println("Kiki - hair Loss level: " + Kiki.getHairLoss());
+
+
+      Pug Mimi = new Pug();
+      Mimi.setAge(6);
+      System.out.println("Pug's age: " + Mimi.getAge());
 
 
 
