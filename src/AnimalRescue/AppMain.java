@@ -2,31 +2,31 @@ package AnimalRescue;
 
 public class AppMain {
     public static void main(String[]arg) {
-        Dog Charlie = new Dog();
-        System.out.println("The dog's name is: "+ Charlie.getName());
+      Dog Charlie = new Dog();
+      Charlie.setName("Charlie");
+        System.out.println("The dog's name: " +Charlie.getName());
 
-        System.out.println("The dog's weight is: "+ Charlie.getWeight() + "kg");
 
-        System.out.println("The dog's color is: "+Charlie.getColor());
+        Cat Hugo = new Cat();
+        Hugo.setAge(2);
+        System.out.println("The cat's age: " + Hugo.getAge() );
 
-        System.out.println("The dog's age is: "+ Charlie.getAge());
 
-        System.out.println("The dog's breed is: "+ Charlie.getBreed());
 
-        System.out.println("The dog's happiness level is: "+ Charlie.getHappinessLevel());
+        Labrador Aki = new Labrador();
+        Aki.setWeight(25);
+        System.out.println("Labrador Aki - weight: " + Aki.getWeight());
 
-        System.out.println("The dog's gender is: "+ Charlie.getGender());
+        Cat Kiki = new Cat();
+        Kiki.setHairLoss("Medium");
+      System.out.println("Kiki - hair Loss level: " + Kiki.hairLoss);
 
-        System.out.println("The dog's food preference is: "+ Charlie.getFoodPreference()+ ","+Charlie.getFoodPrice() + " ron," + Charlie.getFoodAvailability());
 
-        System.out.println("The dog's health level is: "+ Charlie.getHealth());
 
-        System.out.println("The dog's appetite level is: "+ Charlie.getAppetite());
 
-        System.out.println("The dog's favorite game is: "+ Charlie.getFavoriteGame());
 
-        System.out.println("The dog's activities are: "+Charlie.getDogActivities());
-        System.out.println("Vet's name: " + Charlie.getDogVet() +", Specialization: " + Charlie.getDogVetSpecialization());
+
+
 
 
 

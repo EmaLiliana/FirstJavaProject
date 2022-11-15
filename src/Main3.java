@@ -16,11 +16,11 @@ public class Main3 {
         int numberInput = 3;
         System.out.println(op.textAndNumber(textInput2,numberInput));
 
-        System.out.println(op.switchNumber(20));
+        System.out.println(op.switchNumber());
 
-        System.out.println(op.trueOrFalse(28));
+        System.out.println(op.trueOrFalse());
 
-        System.out.println(op.isEligibleToVote(18));
+        System.out.println(op.isEligibleToVote());
 
         System.out.println(op.biggestNumberAgain( 2,4,6));
 
