@@ -20,7 +20,7 @@ public class MainArray {
         //opArray.getEvenNumbersFromArray(evenNumbersPosition);
         System.out.println();
 
-        int arrayEvenPosition=100;
+        int [] arrayEvenPosition= {};
         opArray.getEvenNumbersFromArray(arrayEvenPosition);
 
         System.out.println();
@@ -56,6 +56,13 @@ public class MainArray {
 
 
         opArray.liliCopyArrayValues();
+
+
+        opArray.insertElement();
+
+
+
+
 
 
 
